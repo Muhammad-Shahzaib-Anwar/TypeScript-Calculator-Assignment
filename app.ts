@@ -18,7 +18,7 @@ const questions = await inquirer.prompt([
         choices:["+","-","*","/"]
     },
 ]);
-console.log(questions);
+//console.log(questions);
 let calculationResult=Calculator(questions.num1,questions.operator,questions.num2);
 console.log(questions.num1,questions.operator,questions.num2 +" = "+ calculationResult);
 
